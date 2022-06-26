@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravelaaaaaaaaaaaaaa
+                    Laravel -- Duarteg
                 </div>
 
                 <div class="links">
