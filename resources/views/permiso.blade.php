@@ -1,1 +1,1 @@
-Hola: {{$nombre}}
+Hola {{$nombre}}
