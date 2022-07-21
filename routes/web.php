@@ -15,5 +15,8 @@ Route::get('/', 'InicioController@index');
 
 Route::group(['prefix'=>'admin','namespace'=>'Admin'], function(){
     Route::get('permiso', 'PermisoController@index')->name('permiso');
-    Route::get('permiso/crear', 'PermisoController@create')->name('crear-permiso');
+    Route::get('permiso/crear', 'PermisoController@create')->name('crear_permiso');
+    Route::get('menu', 'MenuController@index')->name('menu');
+    Route::get('menu/crear', 'MenuController@create')->name('crear_menu');
+    Route::post('menu', 'MenuController@store')->name('guardar_menu');
 });
